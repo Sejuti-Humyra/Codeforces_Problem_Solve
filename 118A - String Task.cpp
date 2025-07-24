@@ -9,8 +9,8 @@ int main()
 {
     if(find(a,a+12,s1[i])!=a+12)
     {
-        s1.erase(i,1);
-        i--;
+        s1.erase(i,1);   // will erase one character in position i 
+        i--;  // as all the letters are shifted to the left so the value of i is deceremented to stay at the same position
     }
     
 }
